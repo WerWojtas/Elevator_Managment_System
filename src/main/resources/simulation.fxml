@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.control.Label?>
+
+<HBox xmlns:fx="http://javafx.com/fxml" alignment="center" prefWidth="1200" prefHeight="750" spacing="10">
+    <GridPane fx:id="callGrid" gridLinesVisible="true" alignment="CENTER_LEFT" />
+    <GridPane fx:id="liftGrid" gridLinesVisible="true" alignment="CENTER"/>
+    <GridPane fx:id="buttonGrid" gridLinesVisible="true" alignment="CENTER_RIGHT" />
+</HBox>

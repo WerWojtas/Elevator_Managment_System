@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="manager.presenter.SimulationInitializer" alignment="center" spacing="10" prefWidth="400" prefHeight="200">
+    <Label text="Chose lifts number:"/>
+    <Spinner fx:id="liftNumber" min="1" max="16" initialValue="1"/>
+    <Label text="Chose floor number"/>
+    <Spinner fx:id="maxFloor" min="2" max="25" initialValue="2"/>
+    <Label text="Chose lift load. -1 will activate TooMuchWeight exceptions"/>
+    <Spinner fx:id="maxLoad" min="-1" max="1" initialValue="-1"/>
+    <Button text="Start Simulation" onAction="#simulation"/>
+</VBox>
+
